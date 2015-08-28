@@ -6,4 +6,4 @@ Problem: An even connected tree is given, highest possible number of edges are t
          the greatest number of EVEN trees.
 
 Solution works by working back to from on the list of nodes 1 - N, it counts the number of children each vertex has, if the number of children is even, you can remove the edge from the vertex to the parent of that vertex.
-I believe there is an issue with the way it process though, it assumes a child vertex will always have a parent of lower value label, since the algorithm didn't work iterating through 2 - N, however it works running N - 2.
+I believe there is an issue with the way the algorithm processes though, it assumes a child vertex will always have a parent of lower value label, since the algorithm didn't work iterating through 2 - N, however it works running N - 2.
